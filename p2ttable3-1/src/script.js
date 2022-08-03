@@ -62,7 +62,7 @@ Popcorn.forEach(videos, function (media, type) {
     })
     .on("sync", function () {
       // Once both items are loaded, sync events
-      if (++loadCount == 0 {
+      if (++loadCount == 2) {
         // Iterate all events and trigger them on the video B
         // whenever they occur on the video A
         events.forEach(function (event) {
