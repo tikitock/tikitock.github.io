@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - P2TTABLE3.1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="visual-real__container" class="visual-real__container">
+  <div id="visual-real__cursor" class="visual-real__cursor">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+    </svg>
+  </div>
+  <div id="visual-real__v-real" class="visual-real__v-wraper">
+    <video preload="auto" id="a" autoplay="true" loop="true" muted="muted" poster="http://photo2topo.com/source/TABLE/dsp3_147-min.jpg">
+      <source src="http://photo2topo.com/source/TABLE/DSP3.webm" type="video/webm">
+      <source src="http://photo2topo.com/source/TABLE/DSP3.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div id="visual-real__v-visual" class="visual-real__v-wraper">
+    <video preload="auto" id="b" autoplay="true" loop="true" muted="muted" poster="http://photo2topo.com/source/TABLE/plain3_147-min.jpg">
+      <source src="http://photo2topo.com/source/TABLE/PLAIN3.webm" type="video/webm">
+      <source src="http://photo2topo.com/source/TABLE/PLAIN3.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+<center><input type="range" value="0" id="scrub" />
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.0/popcorn.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
