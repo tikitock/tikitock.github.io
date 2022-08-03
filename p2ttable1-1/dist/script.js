@@ -103,7 +103,7 @@ scrub.bind("change", function () {
 // frequently as the browser would allow,
 // the video is resync'ed.
 function sync() {
-  if (videos.b.media.readyState === 4) {
+  if (videos.b.media.readyState === 2) {
     videos.b.currentTime(videos.a.currentTime());
   }
   requestAnimationFrame(sync);
